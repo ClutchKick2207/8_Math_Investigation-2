@@ -15,6 +15,7 @@ def Lever(): #Using functions to allow for repeatability and future expansions
 def WaA():
     R = float(input('What is the radius of the wheel? '))
     r = float(input('What is the radius of the axle? '))
+    N = float(input('How much effort do you wish to obtain [in Newtons]? '))
     M = R/r
     time.sleep(1)
     print(f'The Ideal Mechanical Advantage (IMA) Wheel and Axle system is: {str(M)}')
@@ -22,6 +23,7 @@ def WaA():
 def Incline():
     L = float(input('What is the hypotenouse of the ramp? '))
     h = float(input('What is the height of the ramp? '))
+    N = float(input('How much effort do you wish to obtain [in Newtons]? '))
     M = L/h
     time.sleep(1)
     print(f'The Ideal Mechanical Advantage (IMA) of your incline is: {str(M)}')
@@ -29,6 +31,7 @@ def Incline():
 def Wedge():
     L = float(input('What is the length of the wedge? '))
     t = float(input('What is the height of the wedge? '))
+    N = float(input('How much effort do you wish to obtain [in Newtons]? '))
     M = L/t
     time.sleep(1)
     print(f'The Ideal Mechanical Advantage (IMA) of your wedge is: {str(M)}')
@@ -36,12 +39,14 @@ def Wedge():
 def Screw():
     L = float(input('What is the length of the handle? '))
     P = float(input('What is the height of each thread? '))
+    N = float(input('How much effort do you wish to obtain [in Newtons]? '))
     M = (2*pi)*L/P
     time.sleep(1)
     print(f'The Ideal Mechanical Advantage (IMA) of your screw is: {str(M)}')
 
 def Pulley():
     N = int(input('How many rope-segments are there? '))
+    N = float(input('How much effort do you wish to obtain [in Newtons]? '))
     time.sleep(1)
     M = N
     print(f'The Ideal Mechanical Advantage (IMA) of your pulley system is: {str(M)}')
