@@ -6,9 +6,11 @@ pi = math.pi
 def Lever(): #Using functions to allow for repeatability and future expansions
     Le = float(input('What is the longer length from the pivot point? '))
     Lr = float(input('What is the shorter length from the pivot point? '))
+    N = float(input('How much effort do you wish to obtain [in Newtons]? '))
     M = Le/Lr
     time.sleep(1)
     print(f'The Ideal Mechanical Advantage (IMA) of your lever is: {str(M)}')
+    print(f'You will need to put in {str(N/M)}N of effort')
 
 def WaA():
     R = float(input('What is the radius of the wheel? '))
