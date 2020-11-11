@@ -19,6 +19,7 @@ def WaA():
     M = R/r
     time.sleep(1)
     print(f'The Ideal Mechanical Advantage (IMA) Wheel and Axle system is: {str(M)}')
+    print(f'You will need to put in {str(N/M)}N of effort')
 
 def Incline():
     L = float(input('What is the hypotenouse of the ramp? '))
@@ -27,6 +28,7 @@ def Incline():
     M = L/h
     time.sleep(1)
     print(f'The Ideal Mechanical Advantage (IMA) of your incline is: {str(M)}')
+    print(f'You will need to put in {str(N/M)}N of effort')
 
 def Wedge():
     L = float(input('What is the length of the wedge? '))
@@ -35,6 +37,7 @@ def Wedge():
     M = L/t
     time.sleep(1)
     print(f'The Ideal Mechanical Advantage (IMA) of your wedge is: {str(M)}')
+    print(f'You will need to put in {str(N/M)}N of effort')
 
 def Screw():
     L = float(input('What is the length of the handle? '))
@@ -43,6 +46,7 @@ def Screw():
     M = (2*pi)*L/P
     time.sleep(1)
     print(f'The Ideal Mechanical Advantage (IMA) of your screw is: {str(M)}')
+    print(f'You will need to put in {str(N/M)}N of effort')
 
 def Pulley():
     N = int(input('How many rope-segments are there? '))
@@ -50,6 +54,7 @@ def Pulley():
     time.sleep(1)
     M = N
     print(f'The Ideal Mechanical Advantage (IMA) of your pulley system is: {str(M)}')
+    print(f'You will need to put in {str(N/M)}N of effort')
 
 def inputs(): 
     print("Hello and Welcome to the mechanical advantage calculator!")
