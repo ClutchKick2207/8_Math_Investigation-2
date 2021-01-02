@@ -14,6 +14,3 @@ Error-Checking | *__Finished__*
 Calculate force output for given force input | *__Not-Doing__*
 Caluculate machine dimensions from input and output forces| *__Not-Doing__*
 Use turtle to graph outputs | *__Not-Doing__*
-
-
-## Definitions/Knowledge:
